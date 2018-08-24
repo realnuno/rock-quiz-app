@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rock Star Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+       
+        <header role="banner">
+        	<h1>Are you a rock star?</h1>
+        </header>
+        	
+        <div class="intro">
+        	<div class="intro-messege">
+        		<p>
+        		Do you love Rock music?<br/>
+        		Are you confident with your rock knowledge?<br/>
+        		Are you a Rock and Roll expert?<br/>
+        		Prove yourself!
+        		</p>
+        	</div>
+        	<button class="start-button">Rock on!</button>
+        </div>
+        
+        
+        <div class="quizzes">
+         	<div class="quiz-content hide"></div>
+        	<div class="score hide"><span class="current-score">0</span>/10</div>
+        	<div class="answer correct-answer hide">You got it!</div>
+        	<div class="answer wrong-answer hide">Sorry, the correct answer was...
+        		<span class="original-answer"></span></div>
+        	
+        </div>
+       	<input type="submit" class="submit hide" value="Rock it!">	
+        <button class="next-question hide">Next</button>
+        
+        
+        
+        <div class="last-page hide">
+        	<div class="total-score"></div>
+       		<div class="outro"></div>
+       		<button class="restart">restart</button>
+        </div>
+        
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="questions.js"></script>
+</body>
+</html>
